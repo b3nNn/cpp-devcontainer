@@ -51,3 +51,4 @@ RUN chmod +x /tmp/install-vcpkg.sh \
 #     && apt-get -y install --no-install-recommends <your-package-list-here>
 
 ENTRYPOINT ["sudo", "service", "docker", "start", "&&", "sleep", "5", "&&", "sudo", "chown", "${USERNAME}", "/var/run/docker.sock", "&&", "/bin/bash"]
+CMD ["tail -f /dev/null"]

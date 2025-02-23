@@ -41,6 +41,6 @@ docker build -t cpp-devcontainer:latest -f ./docker/devcontainer/Dockerfile ./do
 
 ## Todo
 - [x] Test on Windows with IntelliJ.
-- [ ] Test on Windows with VSCode.
+- [x] Test on Windows with VSCode.
 - [ ] Test on MacOS with IntelliJ.
 - [ ] Test on MacOS with VSCode.
